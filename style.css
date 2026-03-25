@@ -1,7 +1,7 @@
 .banner{
    background-image: url("fundo.jpg");
    background-size: cover;
-   height: 900px;
+   height: 1020px;
    width:100%;
 
 }
@@ -12,9 +12,11 @@
     box-sizing: border-box;
 
 }
-.body{
+
+body{
     margin: 0;
     padding:0;
+   
 }
 
 #titulo-principal{
@@ -84,11 +86,14 @@
     display:flex;
     flex-direction:column;
     gap: 20px;
-    border-left: 89px solid #e63946;
+    background-color:  #5e050c;
+    width: 12opx;
+    min-height: 175vh;
     padding-left: 15px;
-    margin-left: 20px;
-    width:fit-content;
-   
+    padding-top: 50px;
+   position: absolute;
+   top:0;
+   left: 0;
 }
 
 .barra-destaques-redes img{
